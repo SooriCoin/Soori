@@ -1,0 +1,22 @@
+[Unit]
+Description=Soori's distributed currency daemon
+After=network.target
+
+[Service]
+User=sooricore
+Group=sooricore
+
+Type=forking
+PIDFile=/var/lib/soorid/soorid.pid
+ExecStart=/usr/bin/soorid -daemon -pid=/var/lib/soorid/soorid.pid \
+-conf=/etc/sooricore/soori.conf -datadir=/var/lib/soorid -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

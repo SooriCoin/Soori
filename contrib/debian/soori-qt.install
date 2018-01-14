@@ -1,0 +1,6 @@
+usr/local/bin/soori-qt usr/bin
+share/pixmaps/soori32.xpm usr/share/pixmaps
+share/pixmaps/soori16.xpm usr/share/pixmaps
+share/pixmaps/soori128.png usr/share/pixmaps
+debian/soori-qt.desktop usr/share/applications
+debian/soori-qt.protocol usr/share/kde4/services/

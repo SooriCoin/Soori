@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/soori_bg.qm</file>
+        <file alias="de">locale/soori_de.qm</file>
+        <file alias="en">locale/soori_en.qm</file>
+        <file alias="es">locale/soori_es.qm</file>
+        <file alias="fi">locale/soori_fi.qm</file>
+        <file alias="fr">locale/soori_fr.qm</file>
+        <file alias="it">locale/soori_it.qm</file>
+        <file alias="ja">locale/soori_ja.qm</file>
+        <file alias="pl">locale/soori_pl.qm</file>
+        <file alias="pt">locale/soori_pt.qm</file>
+        <file alias="ru">locale/soori_ru.qm</file>
+        <file alias="sk">locale/soori_sk.qm</file>
+        <file alias="sv">locale/soori_sv.qm</file>
+        <file alias="vi">locale/soori_vi.qm</file>
+        <file alias="zh_CN">locale/soori_zh_CN.qm</file>
+        <file alias="zh_TW">locale/soori_zh_TW.qm</file>
+    </qresource>
+</RCC>
