@@ -176,11 +176,13 @@ vSeeds.clear();
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (  0, uint256S("0x000009d004dfcf018188933b97abe8604cfad5b0d4ae57c8babfcdb6e395bed9")),
-//            1507424630, // * UNIX timestamp of last checkpoint block
-//            3701128,    // * total number of transactions between genesis and last checkpoint
+            (    0, uint256S("0x000009d004dfcf018188933b97abe8604cfad5b0d4ae57c8babfcdb6e395bed9"))
+		(    4500, uint256S("0x000003647768d5893215a1be364180c20fd5db6094e0f81192eddd042ea679bf")),
+
+            1516285464, // * UNIX timestamp of last checkpoint block
+            4504,       // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-//            5000        // * estimated number of transactions per day after checkpoint
+            500         // * estimated number of transactions per day after checkpoint
         };
     }
 };
