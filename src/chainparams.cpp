@@ -144,8 +144,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x867e58b1e01b439d081e8c7751ff94862eec0a42b538c8588d2650c92de73200"));
 
 
-vFixedSeeds.clear();
-vSeeds.clear();
+        vSeeds.push_back(CDNSSeedData("sooriseed.malikov.info", "sooriseed.malikov.info"));
+
 
 
          // Soori addresses start with 'S'
